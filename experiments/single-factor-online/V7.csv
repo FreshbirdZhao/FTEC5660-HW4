@@ -1,0 +1,1282 @@
+id,category,question,parsed,retrieved,chunk_count,retrieval_hit,abstained,answer,correct,context
+q001,unanswerable,"How much cash and cash equivalents did Northgate Robotic Systems hold at 31 December 2025, in USD millions?",,doc_011.html;doc_028.html;doc_038.html;doc_039.html,5,,False,241.6,False,"[1] source: doc_039.html | company: Northgate Payments Corp. | fiscal_year: 2024 | doc_type: annual_report
+Northgate Payments Corp. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at end of year | 2024: 114.5 | 2023: 96.8
+
+[2] source: doc_038.html | company: Northgate Robotics Inc. | fiscal_year: 2025 | doc_type: annual_report
+Northgate Robotics Inc. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at end of year | 2025: 241.6 | 2024: 215.7
+
+[3] source: doc_028.html | company: Northgate Robotics Inc. | fiscal_year: 2024 | doc_type: annual_report
+Northgate Robotics Inc. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at end of year | 2024: 215.7 | 2023: 248.5
+
+[4] source: doc_011.html | company: Northgate Payments Corp. | fiscal_year: 2025 | doc_type: annual_report
+Northgate Payments Corp. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at end of year | 2025: 112.5 | 2024: 114.5
+
+[5] source: doc_039.html | company: Northgate Payments Corp. | fiscal_year: 2024 | doc_type: annual_report
+Northgate Payments Corp. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at beginning of year | 2024: 96.8 | 2023: 99.8"
+q002,table,"What was Brightwater Software's revenue in FY2025, in USD millions?",,doc_020.html;doc_027.html,5,True,False,1574.7,True,"[1] source: doc_027.html | company: Brightwater Software Inc. | fiscal_year: 2024 | doc_type: annual_report
+Brightwater Software Inc. | Revenue
+Revenue
+
+[2] source: doc_020.html | company: Brightwater Software Inc. | fiscal_year: 2025 | doc_type: annual_report
+Brightwater Software Inc. | Revenue
+Revenue
+
+[3] source: doc_027.html | company: Brightwater Software Inc. | fiscal_year: 2024 | doc_type: annual_report
+Brightwater Software Inc. | Note 3: Revenue by region
+Revenue by region (USD millions)
+Total revenue | 2024: 1,266.8 | 2023: 1,038.4
+
+[4] source: doc_027.html | company: Brightwater Software Inc. | fiscal_year: 2024 | doc_type: annual_report
+Brightwater Software Inc. | Note 2: Revenue by segment
+Revenue by segment (USD millions)
+Total revenue | 2024: 1,266.8 | 2023: 1,038.4
+
+[5] source: doc_020.html | company: Brightwater Software Inc. | fiscal_year: 2025 | doc_type: annual_report
+Brightwater Software Inc. | Note 3: Revenue by region
+Revenue by region (USD millions)
+Total revenue | 2025: 1,574.7 | 2024: 1,266.8"
+q003,comparison,Which company had more employees at 31 December 2024: Northgate Payments or Northgate Robotics?,,doc_011.html;doc_028.html;doc_038.html;doc_039.html,5,False,False,NOT_FOUND,False,"[1] source: doc_039.html | company: Northgate Payments Corp. | fiscal_year: 2024 | doc_type: annual_report
+Northgate Payments Corp. | Note 6: Employees
+Note 6: Employees
+
+[2] source: doc_011.html | company: Northgate Payments Corp. | fiscal_year: 2025 | doc_type: annual_report
+Northgate Payments Corp. | Note 6: Employees
+Note 6: Employees
+
+[3] source: doc_038.html | company: Northgate Robotics Inc. | fiscal_year: 2025 | doc_type: annual_report
+Northgate Robotics Inc. | Note 6: Employees
+Note 6: Employees
+
+[4] source: doc_028.html | company: Northgate Robotics Inc. | fiscal_year: 2024 | doc_type: annual_report
+Northgate Robotics Inc. | Note 6: Employees
+Note 6: Employees
+
+[5] source: doc_039.html | company: Northgate Payments Corp. | fiscal_year: 2024 | doc_type: annual_report
+Northgate Payments Corp. | Note 6: Employees
+Employees at 31 December by function (number of people)
+Total employees | 2024: 2,897 | 2023: 2,450"
+q004,comparison,Which company had the higher net income in FY2024: Kestrel Semiconductor or Halcyon Freight?,,doc_005.html;doc_008.html;doc_016.html;doc_026.html,5,False,False,NOT_FOUND,False,"[1] source: doc_016.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: annual_report
+Halcyon Freight Inc. | Operating income and net income
+Operating income and net income
+
+[2] source: doc_008.html | company: Halcyon Freight Inc. | fiscal_year: 2024 | doc_type: annual_report
+Halcyon Freight Inc. | Operating income and net income
+Operating income and net income
+
+[3] source: doc_026.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Kestrel Semiconductor Ltd. | Operating income and net income
+Operating income and net income
+
+[4] source: doc_005.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Kestrel Semiconductor Ltd. | Operating income and net income
+Operating income and net income
+
+[5] source: doc_016.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: annual_report
+Halcyon Freight Inc. | Consolidated income statement
+Consolidated income statement"
+q005,unanswerable,"What were Halcyon Freight's total assets at 31 December 2022, in USD millions?",,doc_008.html;doc_016.html,5,,False,NOT_FOUND,True,"[1] source: doc_016.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: annual_report
+Halcyon Freight Inc. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Total assets | 31 December 2025: 1,948.6 | 31 December 2024: 1,932.0
+
+[2] source: doc_016.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: annual_report
+Halcyon Freight Inc. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Assets
+
+[3] source: doc_008.html | company: Halcyon Freight Inc. | fiscal_year: 2024 | doc_type: annual_report
+Halcyon Freight Inc. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Total assets | 31 December 2024: 1,932.0 | 31 December 2023: 1,844.6
+
+[4] source: doc_008.html | company: Halcyon Freight Inc. | fiscal_year: 2024 | doc_type: annual_report
+Halcyon Freight Inc. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Assets
+
+[5] source: doc_016.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: annual_report
+Halcyon Freight Inc. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Total current assets | 31 December 2025: 738.3 | 31 December 2024: 803.0"
+q006,unanswerable,"What was Kestrel Semiconductor's operating income in FY2022, in USD millions?",,doc_005.html;doc_026.html,5,,False,NOT_FOUND,True,"[1] source: doc_026.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Kestrel Semiconductor Ltd. | Operating income and net income
+Operating income and net income
+
+[2] source: doc_005.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Kestrel Semiconductor Ltd. | Operating income and net income
+Operating income and net income
+
+[3] source: doc_026.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Kestrel Semiconductor Ltd. | Operating income and net income
+Operating income was USD 695.0 million, and the operating margin was 28.8% (27.9% in 2024). Net income was USD 528.9 million and diluted earnings per share were USD 4.64.
+
+[4] source: doc_005.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Kestrel Semiconductor Ltd. | Operating income and net income
+Operating income was USD 607.6 million, and the operating margin was 27.9% (29.8% in 2023). Net income was USD 460.1 million and diluted earnings per share were USD 4.00.
+
+[5] source: doc_026.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Kestrel Semiconductor Ltd. | Consolidated income statement
+Consolidated income statement for the year ended 31 December (USD millions, except per-share data)
+Operating income | 2025: 695.0 | 2024: 607.6"
+q007,fact,What investment rating does Kowloon Peak Securities give Brightwater Energy in its FY2025 results review?,,doc_006.html;doc_034.html,5,False,False,NOT_FOUND,False,"[1] source: doc_006.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: earnings_call
+Brightwater Energy Corp. | Call participants
+Ethan Tanaka - Kowloon Peak Securities
+
+[2] source: doc_006.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: earnings_call
+Brightwater Energy Corp. | Question and answer session
+Ethan Tanaka (Kowloon Peak Securities)
+
+[3] source: doc_034.html | company: Brightwater Software Inc. | fiscal_year: 2025 | doc_type: earnings_call
+Brightwater Software Inc. | Call participants
+Thomas Abbott - Kowloon Peak Securities
+
+[4] source: doc_006.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: earnings_call
+Brightwater Energy Corp. | Question and answer session
+The next question comes from Ethan Tanaka with Kowloon Peak Securities.
+
+[5] source: doc_034.html | company: Brightwater Software Inc. | fiscal_year: 2025 | doc_type: earnings_call
+Brightwater Software Inc. | Question and answer session
+Thomas Abbott (Kowloon Peak Securities)"
+q008,fact,"On its fourth-quarter earnings call, what revenue growth did Corvane Pharma's management guide for FY2026, in percent?",,doc_024.html;doc_031.html;doc_033.html,5,True,False,8.5,True,"[1] source: doc_033.html | company: Corvane Pharma Ltd. | fiscal_year: 2025 | doc_type: research_report
+Corvane Pharma Ltd. | Investment summary
+Corvane Pharma Ltd. reported FY2025 revenue of USD 3,053.4 million (+15.2% year on year) and operating income of USD 625.7 million. Management guided to revenue growth of approximately 8.5% for FY2026. We reiterate our REDUCE rating with a target price of USD 152.28.
+
+[2] source: doc_033.html | company: Corvane Pharma Ltd. | fiscal_year: 2025 | doc_type: research_report
+Corvane Pharma Ltd. | FY2025 results review: growth slowing, valuation stretched
+FY2025 results review: growth slowing, valuation stretched
+
+[3] source: doc_031.html | company: Corvane Pharma Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Corvane Pharma Ltd. | Revenue
+Revenue
+
+[4] source: doc_024.html | company: Corvane Pharma Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Corvane Pharma Ltd. | Revenue
+Revenue
+
+[5] source: doc_033.html | company: Corvane Pharma Ltd. | fiscal_year: 2025 | doc_type: research_report
+Corvane Pharma Ltd. | FY2025 results review: growth slowing, valuation stretched
+Implied upside: -6.6%"
+q009,table,"What was Sablewood Retail's revenue in FY2025, in USD millions?",,doc_004.html;doc_018.html,5,True,False,2390.3,True,"[1] source: doc_018.html | company: Sablewood Retail Inc. | fiscal_year: 2024 | doc_type: annual_report
+Sablewood Retail Inc. | Revenue
+Revenue
+
+[2] source: doc_004.html | company: Sablewood Retail Inc. | fiscal_year: 2025 | doc_type: annual_report
+Sablewood Retail Inc. | Revenue
+Revenue
+
+[3] source: doc_018.html | company: Sablewood Retail Inc. | fiscal_year: 2024 | doc_type: annual_report
+Sablewood Retail Inc. | Note 3: Revenue by region
+Revenue by region (USD millions)
+Total revenue | 2024: 2,332.4 | 2023: 2,250.0
+
+[4] source: doc_018.html | company: Sablewood Retail Inc. | fiscal_year: 2024 | doc_type: annual_report
+Sablewood Retail Inc. | Note 2: Revenue by segment
+Revenue by segment (USD millions)
+Total revenue | 2024: 2,332.4 | 2023: 2,250.0
+
+[5] source: doc_004.html | company: Sablewood Retail Inc. | fiscal_year: 2025 | doc_type: annual_report
+Sablewood Retail Inc. | Note 3: Revenue by region
+Revenue by region (USD millions)
+Total revenue | 2025: 2,390.3 | 2024: 2,332.4"
+q010,fact,Who was Brightwater Software's Chief Executive Officer at the end of FY2025?,,doc_020.html;doc_027.html;doc_034.html,5,True,False,Yara Castillo,True,"[1] source: doc_034.html | company: Brightwater Software Inc. | fiscal_year: 2025 | doc_type: earnings_call
+Brightwater Software Inc. | Presentation
+Yara Castillo (Chief Executive Officer)
+
+[2] source: doc_034.html | company: Brightwater Software Inc. | fiscal_year: 2025 | doc_type: earnings_call
+Brightwater Software Inc. | Presentation
+Yara Castillo (Chief Executive Officer)
+
+[3] source: doc_034.html | company: Brightwater Software Inc. | fiscal_year: 2025 | doc_type: earnings_call
+Brightwater Software Inc. | Call participants
+Yara Castillo - Chief Executive Officer
+
+[4] source: doc_027.html | company: Brightwater Software Inc. | fiscal_year: 2024 | doc_type: annual_report
+Brightwater Software Inc. | Executive officers
+Executive officers at 31 December 2024
+Yara Castillo | Title: Chief Executive Officer | In role since: 2018
+
+[5] source: doc_020.html | company: Brightwater Software Inc. | fiscal_year: 2025 | doc_type: annual_report
+Brightwater Software Inc. | Executive officers
+Executive officers at 31 December 2025
+Yara Castillo | Title: Chief Executive Officer | In role since: 2018"
+q011,unanswerable,"What was Halcyon Air Cargo's revenue in FY2024, in USD millions?",,doc_008.html;doc_016.html,5,,False,NOT_FOUND,True,"[1] source: doc_016.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: annual_report
+Halcyon Freight Inc. | Revenue
+Revenue
+
+[2] source: doc_008.html | company: Halcyon Freight Inc. | fiscal_year: 2024 | doc_type: annual_report
+Halcyon Freight Inc. | Revenue
+Revenue
+
+[3] source: doc_016.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: annual_report
+Halcyon Freight Inc. | Note 3: Revenue by region
+Revenue by region (USD millions)
+Total revenue | 2025: 1,911.3 | 2024: 1,862.8
+
+[4] source: doc_016.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: annual_report
+Halcyon Freight Inc. | Note 2: Revenue by segment
+Revenue by segment (USD millions)
+Total revenue | 2025: 1,911.3 | 2024: 1,862.8
+
+[5] source: doc_008.html | company: Halcyon Freight Inc. | fiscal_year: 2024 | doc_type: annual_report
+Halcyon Freight Inc. | Note 3: Revenue by region
+Revenue by region (USD millions)
+Total revenue | 2024: 1,862.8 | 2023: 1,807.5"
+q012,table,"How much long-term borrowing did Northgate Robotics report at 31 December 2024, in USD millions?",,doc_011.html;doc_028.html;doc_038.html;doc_039.html,5,True,False,838.4,True,"[1] source: doc_038.html | company: Northgate Robotics Inc. | fiscal_year: 2025 | doc_type: annual_report
+Northgate Robotics Inc. | Note 5: Borrowings
+Borrowings at 31 December (USD millions)
+Long-term borrowings | 2025: 1,027.1 | 2024: 838.4
+
+[2] source: doc_028.html | company: Northgate Robotics Inc. | fiscal_year: 2024 | doc_type: annual_report
+Northgate Robotics Inc. | Note 5: Borrowings
+Borrowings at 31 December (USD millions)
+Long-term borrowings | 2024: 838.4 | 2023: 883.2
+
+[3] source: doc_039.html | company: Northgate Payments Corp. | fiscal_year: 2024 | doc_type: annual_report
+Northgate Payments Corp. | Note 5: Borrowings
+Borrowings at 31 December (USD millions)
+Long-term borrowings | 2024: 355.9 | 2023: 316.9
+
+[4] source: doc_011.html | company: Northgate Payments Corp. | fiscal_year: 2025 | doc_type: annual_report
+Northgate Payments Corp. | Note 5: Borrowings
+Borrowings at 31 December (USD millions)
+Long-term borrowings | 2025: 443.4 | 2024: 355.9
+
+[5] source: doc_038.html | company: Northgate Robotics Inc. | fiscal_year: 2025 | doc_type: annual_report
+Northgate Robotics Inc. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Long-term borrowings | 31 December 2025: 1,027.1 | 31 December 2024: 838.4"
+q013,comparison,Which company had the higher net income in FY2024: Brightwater Energy or Orchid Bay Hotels?,,doc_001.html;doc_002.html;doc_037.html,5,False,False,NOT_FOUND,False,"[1] source: doc_002.html | company: Orchid Bay Hotels Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Orchid Bay Hotels Ltd. | Operating income and net income
+Operating income and net income
+
+[2] source: doc_001.html | company: Orchid Bay Hotels Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Orchid Bay Hotels Ltd. | Operating income and net income
+Operating income and net income
+
+[3] source: doc_037.html | company: Orchid Bay Hotels Ltd. | fiscal_year: 2025 | doc_type: research_report
+Orchid Bay Hotels Ltd. | Orchid Bay Hotels Ltd. (1876)
+Orchid Bay Hotels Ltd. (1876)
+
+[4] source: doc_002.html | company: Orchid Bay Hotels Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Orchid Bay Hotels Ltd. | Orchid Bay Hotels Ltd.
+Orchid Bay Hotels Ltd.
+
+[5] source: doc_001.html | company: Orchid Bay Hotels Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Orchid Bay Hotels Ltd. | Orchid Bay Hotels Ltd.
+Orchid Bay Hotels Ltd."
+q014,fact,Who was Halcyon Freight's Chief Financial Officer at the end of FY2025?,,doc_030.html,5,True,False,Rachel Nyberg,True,"[1] source: doc_030.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: earnings_call
+Halcyon Freight Inc. | Presentation
+Rachel Nyberg (Chief Financial Officer)
+
+[2] source: doc_030.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: earnings_call
+Halcyon Freight Inc. | Presentation
+Rachel Nyberg (Chief Financial Officer)
+
+[3] source: doc_030.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: earnings_call
+Halcyon Freight Inc. | Presentation
+Rachel Nyberg (Chief Financial Officer)
+
+[4] source: doc_030.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: earnings_call
+Halcyon Freight Inc. | Call participants
+Rachel Nyberg - Chief Financial Officer
+
+[5] source: doc_030.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: earnings_call
+Halcyon Freight Inc. | Presentation
+James Kaur (Chief Executive Officer)"
+q015,fact,Which audit firm audited Lumen Harbor Foods' financial statements for FY2025?,,doc_023.html;doc_036.html,5,True,False,Whitlock Byrne LLP,True,"[1] source: doc_036.html | company: Lumen Harbor Foods plc | fiscal_year: 2024 | doc_type: annual_report
+Lumen Harbor Foods plc | Independent auditor
+Independent auditor
+
+[2] source: doc_023.html | company: Lumen Harbor Foods plc | fiscal_year: 2025 | doc_type: annual_report
+Lumen Harbor Foods plc | Independent auditor
+Independent auditor
+
+[3] source: doc_036.html | company: Lumen Harbor Foods plc | fiscal_year: 2024 | doc_type: annual_report
+Lumen Harbor Foods plc | Independent auditor
+Whitlock Byrne LLP audited the consolidated financial statements for the year ended 31 December 2024 and issued an unqualified opinion.
+
+[4] source: doc_023.html | company: Lumen Harbor Foods plc | fiscal_year: 2025 | doc_type: annual_report
+Lumen Harbor Foods plc | Independent auditor
+Whitlock Byrne LLP audited the consolidated financial statements for the year ended 31 December 2025 and issued an unqualified opinion.
+
+[5] source: doc_036.html | company: Lumen Harbor Foods plc | fiscal_year: 2024 | doc_type: annual_report
+Lumen Harbor Foods plc | Board of directors
+Board of directors at 31 December 2024
+Olivia Tanaka | Role: Chair of the Audit Committee | Director since: 2017"
+q016,table,"What was Corvane Pharma's gross profit in FY2024, in USD millions?",,doc_024.html;doc_031.html,5,True,False,1805.4,True,"[1] source: doc_031.html | company: Corvane Pharma Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Corvane Pharma Ltd. | Consolidated income statement
+Consolidated income statement for the year ended 31 December (USD millions, except per-share data)
+Gross profit | 2025: 2,083.5 | 2024: 1,805.4
+
+[2] source: doc_024.html | company: Corvane Pharma Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Corvane Pharma Ltd. | Consolidated income statement
+Consolidated income statement for the year ended 31 December (USD millions, except per-share data)
+Gross profit | 2024: 1,805.4 | 2023: 1,590.0
+
+[3] source: doc_031.html | company: Corvane Pharma Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Corvane Pharma Ltd. | Gross margin and operating expenses
+Gross margin and operating expenses
+
+[4] source: doc_024.html | company: Corvane Pharma Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Corvane Pharma Ltd. | Gross margin and operating expenses
+Gross margin and operating expenses
+
+[5] source: doc_031.html | company: Corvane Pharma Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Corvane Pharma Ltd. | Note 4: Accounts receivable
+Accounts receivable at 31 December (USD millions)
+Trade receivables, gross | 2025: 594.9 | 2024: 522.2"
+q017,comparison,Which company had more total assets at 31 December 2025: Brightwater Energy or Brightwater Software?,,doc_003.html;doc_027.html;doc_032.html,5,False,False,NOT_FOUND,False,"[1] source: doc_032.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: annual_report
+Brightwater Energy Corp. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Total assets | 31 December 2025: 3,627.6 | 31 December 2024: 3,505.7
+
+[2] source: doc_032.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: annual_report
+Brightwater Energy Corp. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Assets
+
+[3] source: doc_003.html | company: Brightwater Energy Corp. | fiscal_year: 2024 | doc_type: annual_report
+Brightwater Energy Corp. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Total assets | 31 December 2024: 3,505.7 | 31 December 2023: 3,470.8
+
+[4] source: doc_003.html | company: Brightwater Energy Corp. | fiscal_year: 2024 | doc_type: annual_report
+Brightwater Energy Corp. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Assets
+
+[5] source: doc_027.html | company: Brightwater Software Inc. | fiscal_year: 2024 | doc_type: annual_report
+Brightwater Software Inc. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Total assets | 31 December 2024: 1,059.9 | 31 December 2023: 913.3"
+q018,fact,"On its Q4 FY2025 earnings call, how large a share repurchase programme did Northgate Payments announce, in USD millions?",,doc_014.html;doc_015.html;doc_019.html;doc_025.html;doc_034.html,5,True,False,75,True,"[1] source: doc_025.html | company: Northgate Payments Corp. | fiscal_year: 2025 | doc_type: earnings_call
+Northgate Payments Corp. | Presentation
+Turning to capital allocation, the board has approved a new share repurchase programme of up to USD 75 million, to be executed over the next 18 months, in addition to our regular dividend.
+
+[2] source: doc_014.html | company: Northgate Robotics Inc. | fiscal_year: 2025 | doc_type: earnings_call
+Northgate Robotics Inc. | Presentation
+Turning to capital allocation, the board has approved a new share repurchase programme of up to USD 125 million, to be executed over the next 18 months, in addition to our regular dividend.
+
+[3] source: doc_019.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: research_report
+Brightwater Energy Corp. | Investment summary
+We believe the market underestimates the durability of the company's growth and its ability to expand margins. The new share repurchase programme adds support.
+
+[4] source: doc_015.html | company: Lumen Harbor Foods plc | fiscal_year: 2025 | doc_type: research_report
+Lumen Harbor Foods plc | Investment summary
+We believe the market underestimates the durability of the company's growth and its ability to expand margins. The new share repurchase programme adds support.
+
+[5] source: doc_034.html | company: Brightwater Software Inc. | fiscal_year: 2025 | doc_type: earnings_call
+Brightwater Software Inc. | Presentation
+Turning to capital allocation, the board has approved a new share repurchase programme of up to USD 75 million, to be executed over the next 18 months, in addition to our regular dividend."
+q019,unanswerable,"What were Brightwater Energy's lobbying expenses in FY2025, in USD millions?",,doc_003.html;doc_027.html;doc_032.html,5,,False,NOT_FOUND,True,"[1] source: doc_032.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: annual_report
+Brightwater Energy Corp. | Gross margin and operating expenses
+Gross margin and operating expenses
+
+[2] source: doc_003.html | company: Brightwater Energy Corp. | fiscal_year: 2024 | doc_type: annual_report
+Brightwater Energy Corp. | Gross margin and operating expenses
+Gross margin and operating expenses
+
+[3] source: doc_032.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: annual_report
+Brightwater Energy Corp. | Gross margin and operating expenses
+Gross margin was 32.0%, compared with 32.2% in 2024. Research and development expenses were 1.0% of revenue. Selling, general and administrative expenses were 7.8% of revenue.
+
+[4] source: doc_003.html | company: Brightwater Energy Corp. | fiscal_year: 2024 | doc_type: annual_report
+Brightwater Energy Corp. | Gross margin and operating expenses
+Gross margin was 32.2%, compared with 32.6% in 2023. Research and development expenses were 1.1% of revenue. Selling, general and administrative expenses were 8.3% of revenue.
+
+[5] source: doc_027.html | company: Brightwater Software Inc. | fiscal_year: 2024 | doc_type: annual_report
+Brightwater Software Inc. | Gross margin and operating expenses
+Gross margin and operating expenses"
+q020,table,"How much revenue did Brightwater Energy's Midstream segment generate in FY2025, in USD millions?",,doc_003.html;doc_032.html,5,True,False,716.6,True,"[1] source: doc_032.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: annual_report
+Brightwater Energy Corp. | Note 2: Revenue by segment
+Revenue by segment (USD millions)
+Midstream | 2025: 716.6 | 2024: 659.1
+
+[2] source: doc_003.html | company: Brightwater Energy Corp. | fiscal_year: 2024 | doc_type: annual_report
+Brightwater Energy Corp. | Note 2: Revenue by segment
+Revenue by segment (USD millions)
+Midstream | 2024: 659.1 | 2023: 605.4
+
+[3] source: doc_032.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: annual_report
+Brightwater Energy Corp. | 2. Business overview
+Midstream. The Midstream segment accounted for about 29% of revenue in 2025. It competes mainly on quality, reliability and service.
+
+[4] source: doc_003.html | company: Brightwater Energy Corp. | fiscal_year: 2024 | doc_type: annual_report
+Brightwater Energy Corp. | 2. Business overview
+Midstream. The Midstream segment accounted for about 29% of revenue in 2024. It competes mainly on quality, reliability and service.
+
+[5] source: doc_032.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: annual_report
+Brightwater Energy Corp. | Revenue
+Revenue increased 8.2% to USD 2,436.3 million in 2025 from USD 2,252.2 million in 2024. Upstream revenue grew 0.5%. Midstream revenue grew 8.7%. Renewables revenue grew 11.4%."
+q021,comparison,Which company held more cash and cash equivalents at 31 December 2024: Northgate Robotics or Northgate Payments?,,doc_011.html;doc_028.html;doc_038.html;doc_039.html,5,True,False,Northgate Robotics Inc.,True,"[1] source: doc_039.html | company: Northgate Payments Corp. | fiscal_year: 2024 | doc_type: annual_report
+Northgate Payments Corp. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at end of year | 2024: 114.5 | 2023: 96.8
+
+[2] source: doc_011.html | company: Northgate Payments Corp. | fiscal_year: 2025 | doc_type: annual_report
+Northgate Payments Corp. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at end of year | 2025: 112.5 | 2024: 114.5
+
+[3] source: doc_038.html | company: Northgate Robotics Inc. | fiscal_year: 2025 | doc_type: annual_report
+Northgate Robotics Inc. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at end of year | 2025: 241.6 | 2024: 215.7
+
+[4] source: doc_028.html | company: Northgate Robotics Inc. | fiscal_year: 2024 | doc_type: annual_report
+Northgate Robotics Inc. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at end of year | 2024: 215.7 | 2023: 248.5
+
+[5] source: doc_039.html | company: Northgate Payments Corp. | fiscal_year: 2024 | doc_type: annual_report
+Northgate Payments Corp. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at beginning of year | 2024: 96.8 | 2023: 99.8"
+q022,comparison,Which company had more total assets at 31 December 2024: Northgate Payments or Orchid Bay Hotels?,,doc_001.html;doc_002.html;doc_022.html;doc_037.html,5,False,False,NOT_FOUND,False,"[1] source: doc_037.html | company: Orchid Bay Hotels Ltd. | fiscal_year: 2025 | doc_type: research_report
+Orchid Bay Hotels Ltd. | Orchid Bay Hotels Ltd. (1876)
+Orchid Bay Hotels Ltd. (1876)
+
+[2] source: doc_002.html | company: Orchid Bay Hotels Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Orchid Bay Hotels Ltd. | Orchid Bay Hotels Ltd.
+Orchid Bay Hotels Ltd.
+
+[3] source: doc_001.html | company: Orchid Bay Hotels Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Orchid Bay Hotels Ltd. | Orchid Bay Hotels Ltd.
+Orchid Bay Hotels Ltd.
+
+[4] source: doc_022.html | company: Orchid Bay Hotels Ltd. | fiscal_year: 2025 | doc_type: earnings_call
+Orchid Bay Hotels Ltd. | Orchid Bay Hotels Ltd. (HKEX: 1876)
+Orchid Bay Hotels Ltd. (HKEX: 1876)
+
+[5] source: doc_002.html | company: Orchid Bay Hotels Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Orchid Bay Hotels Ltd. | Orchid Bay Hotels Ltd.
+Annual Report 2025"
+q023,comparison,Which company held more cash and cash equivalents at 31 December 2024: Lumen Harbor Foods or Sablewood Retail?,,doc_023.html;doc_036.html,5,False,False,NOT_FOUND,False,"[1] source: doc_036.html | company: Lumen Harbor Foods plc | fiscal_year: 2024 | doc_type: annual_report
+Lumen Harbor Foods plc | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at end of year | 2024: 445.1 | 2023: 378.3
+
+[2] source: doc_023.html | company: Lumen Harbor Foods plc | fiscal_year: 2025 | doc_type: annual_report
+Lumen Harbor Foods plc | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at end of year | 2025: 437.4 | 2024: 445.1
+
+[3] source: doc_036.html | company: Lumen Harbor Foods plc | fiscal_year: 2024 | doc_type: annual_report
+Lumen Harbor Foods plc | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Cash and cash equivalents | 31 December 2024: 445.1 | 31 December 2023: 378.3
+
+[4] source: doc_023.html | company: Lumen Harbor Foods plc | fiscal_year: 2025 | doc_type: annual_report
+Lumen Harbor Foods plc | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Cash and cash equivalents | 31 December 2025: 437.4 | 31 December 2024: 445.1
+
+[5] source: doc_036.html | company: Lumen Harbor Foods plc | fiscal_year: 2024 | doc_type: annual_report
+Lumen Harbor Foods plc | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at beginning of year | 2024: 378.3 | 2023: 298.6"
+q024,table,"How much revenue did Orchid Bay Hotels generate in Asia Pacific in FY2023, in USD millions?",,doc_001.html;doc_002.html;doc_032.html;doc_038.html;doc_039.html,5,True,False,316.2,True,"[1] source: doc_002.html | company: Orchid Bay Hotels Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Orchid Bay Hotels Ltd. | Note 3: Revenue by region
+Revenue by region (USD millions)
+Asia Pacific | 2025: 376.3 | 2024: 349.0
+
+[2] source: doc_001.html | company: Orchid Bay Hotels Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Orchid Bay Hotels Ltd. | Note 3: Revenue by region
+Revenue by region (USD millions)
+Asia Pacific | 2024: 349.0 | 2023: 316.2
+
+[3] source: doc_039.html | company: Northgate Payments Corp. | fiscal_year: 2024 | doc_type: annual_report
+Northgate Payments Corp. | Note 3: Revenue by region
+Revenue by region (USD millions)
+Asia Pacific | 2024: 486.2 | 2023: 403.1
+
+[4] source: doc_038.html | company: Northgate Robotics Inc. | fiscal_year: 2025 | doc_type: annual_report
+Northgate Robotics Inc. | Note 3: Revenue by region
+Revenue by region (USD millions)
+Asia Pacific | 2025: 875.5 | 2024: 847.2
+
+[5] source: doc_032.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: annual_report
+Brightwater Energy Corp. | Note 3: Revenue by region
+Revenue by region (USD millions)
+Asia Pacific | 2025: 690.8 | 2024: 643.4"
+q025,unanswerable,"How much did Corvane Pharma spend on carbon offset purchases in FY2025, in USD millions?",,doc_009.html;doc_024.html;doc_031.html,5,,False,NOT_FOUND,True,"[1] source: doc_031.html | company: Corvane Pharma Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Corvane Pharma Ltd. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Purchases of property, plant and equipment | 2025: (119.8) | 2024: (128.5)
+
+[2] source: doc_024.html | company: Corvane Pharma Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Corvane Pharma Ltd. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Purchases of property, plant and equipment | 2024: (128.5) | 2023: (121.3)
+
+[3] source: doc_009.html | company: Corvane Pharma Ltd. | fiscal_year: 2025 | doc_type: earnings_call
+Corvane Pharma Ltd. | Question and answer session
+Mix and productivity should be tailwinds, partly offset by wage inflation and continued investment in our growth initiatives. That is reflected in the range we gave.
+
+[4] source: doc_031.html | company: Corvane Pharma Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Corvane Pharma Ltd. | Corvane Pharma Ltd.
+Corvane Pharma Ltd.
+
+[5] source: doc_024.html | company: Corvane Pharma Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Corvane Pharma Ltd. | Corvane Pharma Ltd.
+Corvane Pharma Ltd."
+q026,table,"How much long-term borrowing did Halcyon Freight report at 31 December 2023, in USD millions?",,doc_008.html;doc_016.html,5,True,False,446.9,True,"[1] source: doc_016.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: annual_report
+Halcyon Freight Inc. | Note 5: Borrowings
+Borrowings at 31 December (USD millions)
+Long-term borrowings | 2025: 509.5 | 2024: 551.8
+
+[2] source: doc_008.html | company: Halcyon Freight Inc. | fiscal_year: 2024 | doc_type: annual_report
+Halcyon Freight Inc. | Note 5: Borrowings
+Borrowings at 31 December (USD millions)
+Long-term borrowings | 2024: 551.8 | 2023: 446.9
+
+[3] source: doc_016.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: annual_report
+Halcyon Freight Inc. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Long-term borrowings | 31 December 2025: 509.5 | 31 December 2024: 551.8
+
+[4] source: doc_008.html | company: Halcyon Freight Inc. | fiscal_year: 2024 | doc_type: annual_report
+Halcyon Freight Inc. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Long-term borrowings | 31 December 2024: 551.8 | 31 December 2023: 446.9
+
+[5] source: doc_016.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: annual_report
+Halcyon Freight Inc. | Note 5: Borrowings
+Borrowings at 31 December (USD millions)
+Short-term borrowings | 2025: 75.7 | 2024: 51.0"
+q027,fact,In which city is Halcyon Freight headquartered?,,doc_008.html;doc_016.html,5,True,False,Memphis,True,"[1] source: doc_016.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: annual_report
+Halcyon Freight Inc. | Halcyon Freight Inc.
+Headquarters: Memphis
+
+[2] source: doc_008.html | company: Halcyon Freight Inc. | fiscal_year: 2024 | doc_type: annual_report
+Halcyon Freight Inc. | Halcyon Freight Inc.
+Headquarters: Memphis
+
+[3] source: doc_016.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: annual_report
+Halcyon Freight Inc. | 2. Business overview
+Halcyon Freight Inc. was founded in 1985 and moves freight by road and rail and runs warehouses on behalf of customers. We serve retailers, manufacturers and e-commerce platforms in 59 countries. Our headquarters are in Memphis.
+
+[4] source: doc_008.html | company: Halcyon Freight Inc. | fiscal_year: 2024 | doc_type: annual_report
+Halcyon Freight Inc. | 2. Business overview
+Halcyon Freight Inc. was founded in 1985 and moves freight by road and rail and runs warehouses on behalf of customers. We serve retailers, manufacturers and e-commerce platforms in 59 countries. Our headquarters are in Memphis.
+
+[5] source: doc_016.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: annual_report
+Halcyon Freight Inc. | Halcyon Freight Inc.
+Halcyon Freight Inc."
+q028,unanswerable,"What was Northgate Robotics' net cash from operating activities in FY2021, in USD millions?",,doc_028.html;doc_038.html,5,,False,NOT_FOUND,True,"[1] source: doc_038.html | company: Northgate Robotics Inc. | fiscal_year: 2025 | doc_type: annual_report
+Northgate Robotics Inc. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Net cash from operating activities | 2025: 342.2 | 2024: 250.7
+
+[2] source: doc_028.html | company: Northgate Robotics Inc. | fiscal_year: 2024 | doc_type: annual_report
+Northgate Robotics Inc. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Net cash from operating activities | 2024: 250.7 | 2023: 235.7
+
+[3] source: doc_038.html | company: Northgate Robotics Inc. | fiscal_year: 2025 | doc_type: annual_report
+Northgate Robotics Inc. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Operating activities
+
+[4] source: doc_028.html | company: Northgate Robotics Inc. | fiscal_year: 2024 | doc_type: annual_report
+Northgate Robotics Inc. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Operating activities
+
+[5] source: doc_038.html | company: Northgate Robotics Inc. | fiscal_year: 2025 | doc_type: annual_report
+Northgate Robotics Inc. | Liquidity and capital resources
+Net cash from operating activities was USD 342.2 million. We invested USD 172.3 million in property, plant and equipment and paid dividends of USD 52.7 million. At year end, cash and cash equivalents were USD 241.6 million and total borrowings were USD 1,137.8 million."
+q029,fact,"What FY2026 revenue does Meridian Equity Research forecast for Sablewood Retail, in USD millions?",,doc_010.html,5,True,False,2605.8,True,"[1] source: doc_010.html | company: Sablewood Retail Inc. | fiscal_year: 2025 | doc_type: research_report
+Sablewood Retail Inc. | Financial summary
+Financial summary and Meridian Equity Research estimates (USD millions, except per-share data and ratios)
+Revenue | FY2024A: 2,332.4 | FY2025A: 2,390.3 | FY2026E: 2,605.8 | FY2027E: 2,862.6
+
+[2] source: doc_010.html | company: Sablewood Retail Inc. | fiscal_year: 2025 | doc_type: research_report
+Sablewood Retail Inc. | Financial summary
+Financial summary and Meridian Equity Research estimates (USD millions, except per-share data and ratios)
+Revenue growth (%) | FY2024A: 3.7 | FY2025A: 2.5 | FY2026E: 9.0 | FY2027E: 9.9
+
+[3] source: doc_010.html | company: Sablewood Retail Inc. | fiscal_year: 2025 | doc_type: research_report
+Sablewood Retail Inc. | Financial summary
+Financial summary and Meridian Equity Research estimates (USD millions, except per-share data and ratios)
+Net income | FY2024A: 150.2 | FY2025A: 151.7 | FY2026E: 169.9 | FY2027E: 200.1
+
+[4] source: doc_010.html | company: Sablewood Retail Inc. | fiscal_year: 2025 | doc_type: research_report
+Sablewood Retail Inc. | Financial summary
+Financial summary and Meridian Equity Research estimates (USD millions, except per-share data and ratios)
+Diluted EPS (USD) | FY2024A: 3.61 | FY2025A: 3.69 | FY2026E: 4.13 | FY2027E: 4.87
+
+[5] source: doc_010.html | company: Sablewood Retail Inc. | fiscal_year: 2025 | doc_type: research_report
+Sablewood Retail Inc. | Financial summary
+Financial summary and Meridian Equity Research estimates (USD millions, except per-share data and ratios)
+Operating margin (%) | FY2024A: 9.0 | FY2025A: 8.5 | FY2026E: 8.8 | FY2027E: 9.4"
+q030,table,"How much cash and cash equivalents did Brightwater Energy hold at 31 December 2025, in USD millions?",,doc_003.html;doc_032.html,5,True,False,363.2,True,"[1] source: doc_032.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: annual_report
+Brightwater Energy Corp. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at end of year | 2025: 363.2 | 2024: 303.8
+
+[2] source: doc_003.html | company: Brightwater Energy Corp. | fiscal_year: 2024 | doc_type: annual_report
+Brightwater Energy Corp. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at end of year | 2024: 303.8 | 2023: 350.8
+
+[3] source: doc_032.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: annual_report
+Brightwater Energy Corp. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at beginning of year | 2025: 303.8 | 2024: 350.8
+
+[4] source: doc_003.html | company: Brightwater Energy Corp. | fiscal_year: 2024 | doc_type: annual_report
+Brightwater Energy Corp. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at beginning of year | 2024: 350.8 | 2023: 314.2
+
+[5] source: doc_032.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: annual_report
+Brightwater Energy Corp. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Cash and cash equivalents | 31 December 2025: 363.2 | 31 December 2024: 303.8"
+q031,comparison,Which company had the higher net income in FY2024: Brightwater Software or Brightwater Energy?,,doc_003.html;doc_020.html;doc_027.html;doc_032.html,5,False,False,NOT_FOUND,False,"[1] source: doc_032.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: annual_report
+Brightwater Energy Corp. | Operating income and net income
+Operating income and net income
+
+[2] source: doc_003.html | company: Brightwater Energy Corp. | fiscal_year: 2024 | doc_type: annual_report
+Brightwater Energy Corp. | Operating income and net income
+Operating income and net income
+
+[3] source: doc_027.html | company: Brightwater Software Inc. | fiscal_year: 2024 | doc_type: annual_report
+Brightwater Software Inc. | Operating income and net income
+Operating income and net income
+
+[4] source: doc_020.html | company: Brightwater Software Inc. | fiscal_year: 2025 | doc_type: annual_report
+Brightwater Software Inc. | Operating income and net income
+Operating income and net income
+
+[5] source: doc_032.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: annual_report
+Brightwater Energy Corp. | Consolidated income statement
+Consolidated income statement"
+q032,unanswerable,"What was Orchid Bay Hotels' revenue in FY2021, in USD millions?",,doc_001.html;doc_002.html;doc_037.html,5,,False,NOT_FOUND,True,"[1] source: doc_002.html | company: Orchid Bay Hotels Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Orchid Bay Hotels Ltd. | Revenue
+Revenue
+
+[2] source: doc_001.html | company: Orchid Bay Hotels Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Orchid Bay Hotels Ltd. | Revenue
+Revenue
+
+[3] source: doc_037.html | company: Orchid Bay Hotels Ltd. | fiscal_year: 2025 | doc_type: research_report
+Orchid Bay Hotels Ltd. | Orchid Bay Hotels Ltd. (1876)
+Orchid Bay Hotels Ltd. (1876)
+
+[4] source: doc_002.html | company: Orchid Bay Hotels Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Orchid Bay Hotels Ltd. | Orchid Bay Hotels Ltd.
+Orchid Bay Hotels Ltd.
+
+[5] source: doc_001.html | company: Orchid Bay Hotels Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Orchid Bay Hotels Ltd. | Orchid Bay Hotels Ltd.
+Orchid Bay Hotels Ltd."
+q033,unanswerable,"How much revenue did Northgate Robotics earn from its largest single customer in FY2025, in USD millions?",,doc_011.html;doc_028.html;doc_038.html;doc_039.html,5,,False,NOT_FOUND,True,"[1] source: doc_038.html | company: Northgate Robotics Inc. | fiscal_year: 2025 | doc_type: annual_report
+Northgate Robotics Inc. | Note 3: Revenue by region
+Revenue is allocated to regions based on the location of the customer.
+
+[2] source: doc_028.html | company: Northgate Robotics Inc. | fiscal_year: 2024 | doc_type: annual_report
+Northgate Robotics Inc. | Note 3: Revenue by region
+Revenue is allocated to regions based on the location of the customer.
+
+[3] source: doc_039.html | company: Northgate Payments Corp. | fiscal_year: 2024 | doc_type: annual_report
+Northgate Payments Corp. | Note 3: Revenue by region
+Revenue is allocated to regions based on the location of the customer.
+
+[4] source: doc_011.html | company: Northgate Payments Corp. | fiscal_year: 2025 | doc_type: annual_report
+Northgate Payments Corp. | Note 3: Revenue by region
+Revenue is allocated to regions based on the location of the customer.
+
+[5] source: doc_038.html | company: Northgate Robotics Inc. | fiscal_year: 2025 | doc_type: annual_report
+Northgate Robotics Inc. | Revenue
+Revenue"
+q034,unanswerable,"What were Kestrel Microdevices' total assets at 31 December 2024, in USD millions?",,doc_005.html;doc_026.html,5,,False,NOT_FOUND,True,"[1] source: doc_026.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Kestrel Semiconductor Ltd. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Total assets | 31 December 2025: 3,215.4 | 31 December 2024: 3,175.5
+
+[2] source: doc_026.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Kestrel Semiconductor Ltd. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Assets
+
+[3] source: doc_005.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Kestrel Semiconductor Ltd. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Total assets | 31 December 2024: 3,175.5 | 31 December 2023: 2,659.3
+
+[4] source: doc_005.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Kestrel Semiconductor Ltd. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Assets
+
+[5] source: doc_026.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Kestrel Semiconductor Ltd. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Total current assets | 31 December 2025: 1,222.7 | 31 December 2024: 1,296.0"
+q035,fact,"What 12-month target price does BuyFin Capital set for Kestrel Semiconductor's shares in its FY2025 results review, in USD?",,doc_017.html;doc_029.html,5,True,False,61.16,True,"[1] source: doc_017.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2025 | doc_type: research_report
+Kestrel Semiconductor Ltd. | FY2025 results review: growth slowing, valuation stretched
+12-month target price: USD 61.16
+
+[2] source: doc_029.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2025 | doc_type: earnings_call
+Kestrel Semiconductor Ltd. | Call participants
+Ivan Kowalski - BuyFin Capital
+
+[3] source: doc_029.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2025 | doc_type: earnings_call
+Kestrel Semiconductor Ltd. | Question and answer session
+Ivan Kowalski (BuyFin Capital)
+
+[4] source: doc_029.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2025 | doc_type: earnings_call
+Kestrel Semiconductor Ltd. | Question and answer session
+The next question comes from Ivan Kowalski with BuyFin Capital.
+
+[5] source: doc_017.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2025 | doc_type: research_report
+Kestrel Semiconductor Ltd. | Investment summary
+Kestrel Semiconductor Ltd. reported FY2025 revenue of USD 2,409.4 million (+10.7% year on year) and operating income of USD 695.0 million. Management guided to revenue growth of approximately 9% for FY2026. We reiterate our REDUCE rating with a target price of USD 61.16."
+q036,table,"What was Northgate Payments' operating income in FY2024, in USD millions?",,doc_011.html;doc_038.html;doc_039.html,5,True,False,236.6,True,"[1] source: doc_039.html | company: Northgate Payments Corp. | fiscal_year: 2024 | doc_type: annual_report
+Northgate Payments Corp. | Operating income and net income
+Operating income and net income
+
+[2] source: doc_011.html | company: Northgate Payments Corp. | fiscal_year: 2025 | doc_type: annual_report
+Northgate Payments Corp. | Operating income and net income
+Operating income and net income
+
+[3] source: doc_039.html | company: Northgate Payments Corp. | fiscal_year: 2024 | doc_type: annual_report
+Northgate Payments Corp. | Operating income and net income
+Operating income was USD 236.6 million, and the operating margin was 20.4% (23.1% in 2023). Net income was USD 162.1 million and diluted earnings per share were USD 1.84.
+
+[4] source: doc_011.html | company: Northgate Payments Corp. | fiscal_year: 2025 | doc_type: annual_report
+Northgate Payments Corp. | Operating income and net income
+Operating income was USD 280.5 million, and the operating margin was 21.0% (20.4% in 2024). Net income was USD 191.0 million and diluted earnings per share were USD 2.19.
+
+[5] source: doc_038.html | company: Northgate Robotics Inc. | fiscal_year: 2025 | doc_type: annual_report
+Northgate Robotics Inc. | Operating income and net income
+Operating income and net income"
+q037,comparison,Which company had the higher operating income in FY2024: Northgate Robotics or Brightwater Software?,,doc_020.html;doc_027.html;doc_028.html;doc_038.html,5,False,False,NOT_FOUND,False,"[1] source: doc_038.html | company: Northgate Robotics Inc. | fiscal_year: 2025 | doc_type: annual_report
+Northgate Robotics Inc. | Operating income and net income
+Operating income and net income
+
+[2] source: doc_028.html | company: Northgate Robotics Inc. | fiscal_year: 2024 | doc_type: annual_report
+Northgate Robotics Inc. | Operating income and net income
+Operating income and net income
+
+[3] source: doc_027.html | company: Brightwater Software Inc. | fiscal_year: 2024 | doc_type: annual_report
+Brightwater Software Inc. | Operating income and net income
+Operating income and net income
+
+[4] source: doc_020.html | company: Brightwater Software Inc. | fiscal_year: 2025 | doc_type: annual_report
+Brightwater Software Inc. | Operating income and net income
+Operating income and net income
+
+[5] source: doc_038.html | company: Northgate Robotics Inc. | fiscal_year: 2025 | doc_type: annual_report
+Northgate Robotics Inc. | Operating income and net income
+Operating income was USD 353.1 million, and the operating margin was 13.0% (11.7% in 2024). Net income was USD 241.6 million and diluted earnings per share were USD 2.25."
+q038,table,"What was Halcyon Freight's net income in FY2024, in USD millions?",,doc_008.html;doc_016.html,5,False,False,NOT_FOUND,False,"[1] source: doc_016.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: annual_report
+Halcyon Freight Inc. | Operating income and net income
+Operating income and net income
+
+[2] source: doc_008.html | company: Halcyon Freight Inc. | fiscal_year: 2024 | doc_type: annual_report
+Halcyon Freight Inc. | Operating income and net income
+Operating income and net income
+
+[3] source: doc_016.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: annual_report
+Halcyon Freight Inc. | Consolidated income statement
+Consolidated income statement
+
+[4] source: doc_008.html | company: Halcyon Freight Inc. | fiscal_year: 2024 | doc_type: annual_report
+Halcyon Freight Inc. | Consolidated income statement
+Consolidated income statement
+
+[5] source: doc_016.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: annual_report
+Halcyon Freight Inc. | Operating income and net income
+Operating income was USD 266.4 million, and the operating margin was 13.9% (13.9% in 2024). Net income was USD 186.6 million and diluted earnings per share were USD 6.39."
+q039,unanswerable,"What was Halcyon Freight's customer churn rate in FY2025, in percent?",,doc_008.html;doc_016.html;doc_020.html;doc_027.html,5,,False,NOT_FOUND,True,"[1] source: doc_016.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: annual_report
+Halcyon Freight Inc. | Note 3: Revenue by region
+Revenue is allocated to regions based on the location of the customer.
+
+[2] source: doc_008.html | company: Halcyon Freight Inc. | fiscal_year: 2024 | doc_type: annual_report
+Halcyon Freight Inc. | Note 3: Revenue by region
+Revenue is allocated to regions based on the location of the customer.
+
+[3] source: doc_027.html | company: Brightwater Software Inc. | fiscal_year: 2024 | doc_type: annual_report
+Brightwater Software Inc. | Customer retention
+Customer retention
+
+[4] source: doc_020.html | company: Brightwater Software Inc. | fiscal_year: 2025 | doc_type: annual_report
+Brightwater Software Inc. | Customer retention
+Customer retention
+
+[5] source: doc_016.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: annual_report
+Halcyon Freight Inc. | Halcyon Freight Inc.
+Halcyon Freight Inc."
+q040,table,"What was the value of Kestrel Semiconductor's inventories at 31 December 2025, in USD millions?",,doc_004.html;doc_005.html;doc_018.html;doc_026.html,5,True,False,162.6,True,"[1] source: doc_026.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Kestrel Semiconductor Ltd. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Inventories | 31 December 2025: 162.6 | 31 December 2024: 149.7
+
+[2] source: doc_005.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Kestrel Semiconductor Ltd. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Inventories | 31 December 2024: 149.7 | 31 December 2023: 134.3
+
+[3] source: doc_018.html | company: Sablewood Retail Inc. | fiscal_year: 2024 | doc_type: annual_report
+Sablewood Retail Inc. | Inventory and markdowns
+Inventory and markdowns
+
+[4] source: doc_004.html | company: Sablewood Retail Inc. | fiscal_year: 2025 | doc_type: annual_report
+Sablewood Retail Inc. | Inventory and markdowns
+Inventory and markdowns
+
+[5] source: doc_026.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Kestrel Semiconductor Ltd. | Industry cycles
+The semiconductor industry is cyclical. In a downturn, customers reduce orders and draw down their inventories, and our fabs run below capacity."
+q041,unanswerable,"How much cash and cash equivalents did Brightwater Mining hold at 31 December 2025, in USD millions?",,doc_003.html;doc_020.html;doc_027.html;doc_032.html,5,,False,NOT_FOUND,True,"[1] source: doc_032.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: annual_report
+Brightwater Energy Corp. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at end of year | 2025: 363.2 | 2024: 303.8
+
+[2] source: doc_027.html | company: Brightwater Software Inc. | fiscal_year: 2024 | doc_type: annual_report
+Brightwater Software Inc. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at end of year | 2024: 244.9 | 2023: 262.5
+
+[3] source: doc_020.html | company: Brightwater Software Inc. | fiscal_year: 2025 | doc_type: annual_report
+Brightwater Software Inc. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at end of year | 2025: 330.7 | 2024: 244.9
+
+[4] source: doc_003.html | company: Brightwater Energy Corp. | fiscal_year: 2024 | doc_type: annual_report
+Brightwater Energy Corp. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at end of year | 2024: 303.8 | 2023: 350.8
+
+[5] source: doc_032.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: annual_report
+Brightwater Energy Corp. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at beginning of year | 2025: 303.8 | 2024: 350.8"
+q042,fact,Who was Brightwater Energy's Chief Financial Officer at the end of FY2024?,,doc_006.html,5,False,False,NOT_FOUND,False,"[1] source: doc_006.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: earnings_call
+Brightwater Energy Corp. | Presentation
+Oscar Silva (Chief Financial Officer)
+
+[2] source: doc_006.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: earnings_call
+Brightwater Energy Corp. | Presentation
+Oscar Silva (Chief Financial Officer)
+
+[3] source: doc_006.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: earnings_call
+Brightwater Energy Corp. | Presentation
+Oscar Silva (Chief Financial Officer)
+
+[4] source: doc_006.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: earnings_call
+Brightwater Energy Corp. | Call participants
+Oscar Silva - Chief Financial Officer
+
+[5] source: doc_006.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: earnings_call
+Brightwater Energy Corp. | Presentation
+Ursula Zhang (Chief Executive Officer)"
+q043,table,"How much revenue did Halcyon Freight's Intermodal segment generate in FY2025, in USD millions?",,doc_008.html;doc_016.html,5,True,False,586.6,True,"[1] source: doc_016.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: annual_report
+Halcyon Freight Inc. | Note 2: Revenue by segment
+Revenue by segment (USD millions)
+Intermodal | 2025: 586.6 | 2024: 529.9
+
+[2] source: doc_008.html | company: Halcyon Freight Inc. | fiscal_year: 2024 | doc_type: annual_report
+Halcyon Freight Inc. | Note 2: Revenue by segment
+Revenue by segment (USD millions)
+Intermodal | 2024: 529.9 | 2023: 565.2
+
+[3] source: doc_016.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: annual_report
+Halcyon Freight Inc. | 2. Business overview
+Intermodal. The Intermodal segment accounted for about 31% of revenue in 2025. It competes mainly on quality, reliability and service.
+
+[4] source: doc_008.html | company: Halcyon Freight Inc. | fiscal_year: 2024 | doc_type: annual_report
+Halcyon Freight Inc. | 2. Business overview
+Intermodal. The Intermodal segment accounted for about 28% of revenue in 2024. It competes mainly on quality, reliability and service.
+
+[5] source: doc_016.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: annual_report
+Halcyon Freight Inc. | Note 2: Revenue by segment
+Revenue by segment (USD millions)
+Total revenue | 2025: 1,911.3 | 2024: 1,862.8"
+q044,unanswerable,"What was Orchid Bay Resorts' operating income in FY2024, in USD millions?",,doc_001.html;doc_002.html,5,,False,NOT_FOUND,True,"[1] source: doc_002.html | company: Orchid Bay Hotels Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Orchid Bay Hotels Ltd. | Orchid Bay Hotels Ltd.
+Industry: Hotels and resorts
+
+[2] source: doc_001.html | company: Orchid Bay Hotels Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Orchid Bay Hotels Ltd. | Orchid Bay Hotels Ltd.
+Industry: Hotels and resorts
+
+[3] source: doc_002.html | company: Orchid Bay Hotels Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Orchid Bay Hotels Ltd. | Operating income and net income
+Operating income and net income
+
+[4] source: doc_001.html | company: Orchid Bay Hotels Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Orchid Bay Hotels Ltd. | Operating income and net income
+Operating income and net income
+
+[5] source: doc_002.html | company: Orchid Bay Hotels Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Orchid Bay Hotels Ltd. | Operating income and net income
+Operating income was USD 247.3 million, and the operating margin was 25.0% (24.5% in 2024). Net income was USD 187.0 million and diluted earnings per share were USD 2.69."
+q045,table,"How much revenue did Lumen Harbor Foods' Bakery segment generate in FY2024, in USD millions?",,doc_023.html;doc_036.html,5,True,False,634.6,True,"[1] source: doc_036.html | company: Lumen Harbor Foods plc | fiscal_year: 2024 | doc_type: annual_report
+Lumen Harbor Foods plc | Note 2: Revenue by segment
+Revenue by segment (USD millions)
+Bakery | 2024: 634.6 | 2023: 616.9
+
+[2] source: doc_023.html | company: Lumen Harbor Foods plc | fiscal_year: 2025 | doc_type: annual_report
+Lumen Harbor Foods plc | Note 2: Revenue by segment
+Revenue by segment (USD millions)
+Bakery | 2025: 671.2 | 2024: 634.6
+
+[3] source: doc_036.html | company: Lumen Harbor Foods plc | fiscal_year: 2024 | doc_type: annual_report
+Lumen Harbor Foods plc | 2. Business overview
+Bakery. The Bakery segment accounted for about 35% of revenue in 2024. Its customers typically sign multi-year agreements.
+
+[4] source: doc_023.html | company: Lumen Harbor Foods plc | fiscal_year: 2025 | doc_type: annual_report
+Lumen Harbor Foods plc | 2. Business overview
+Bakery. The Bakery segment accounted for about 36% of revenue in 2025. It competes mainly on quality, reliability and service.
+
+[5] source: doc_036.html | company: Lumen Harbor Foods plc | fiscal_year: 2024 | doc_type: annual_report
+Lumen Harbor Foods plc | Note 2: Revenue by segment
+Revenue by segment (USD millions)
+Total revenue | 2024: 1,819.4 | 2023: 1,708.3"
+q046,table,"What was Sablewood Retail's gross profit in FY2023, in USD millions?",,doc_004.html;doc_018.html,5,True,False,897.8,True,"[1] source: doc_018.html | company: Sablewood Retail Inc. | fiscal_year: 2024 | doc_type: annual_report
+Sablewood Retail Inc. | Consolidated income statement
+Consolidated income statement for the year ended 31 December (USD millions, except per-share data)
+Gross profit | 2024: 932.2 | 2023: 897.8
+
+[2] source: doc_004.html | company: Sablewood Retail Inc. | fiscal_year: 2025 | doc_type: annual_report
+Sablewood Retail Inc. | Consolidated income statement
+Consolidated income statement for the year ended 31 December (USD millions, except per-share data)
+Gross profit | 2025: 966.8 | 2024: 932.2
+
+[3] source: doc_018.html | company: Sablewood Retail Inc. | fiscal_year: 2024 | doc_type: annual_report
+Sablewood Retail Inc. | Gross margin and operating expenses
+Gross margin and operating expenses
+
+[4] source: doc_004.html | company: Sablewood Retail Inc. | fiscal_year: 2025 | doc_type: annual_report
+Sablewood Retail Inc. | Gross margin and operating expenses
+Gross margin and operating expenses
+
+[5] source: doc_018.html | company: Sablewood Retail Inc. | fiscal_year: 2024 | doc_type: annual_report
+Sablewood Retail Inc. | Gross margin and operating expenses
+Gross margin was 40.0%, compared with 39.9% in 2023. Selling, general and administrative expenses were 30.9% of revenue."
+q047,table,"What were Corvane Pharma's total assets at 31 December 2024, in USD millions?",,doc_024.html;doc_031.html,5,True,False,2711.4,True,"[1] source: doc_031.html | company: Corvane Pharma Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Corvane Pharma Ltd. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Total assets | 31 December 2025: 3,079.9 | 31 December 2024: 2,711.4
+
+[2] source: doc_031.html | company: Corvane Pharma Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Corvane Pharma Ltd. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Assets
+
+[3] source: doc_024.html | company: Corvane Pharma Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Corvane Pharma Ltd. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Total assets | 31 December 2024: 2,711.4 | 31 December 2023: 2,237.3
+
+[4] source: doc_024.html | company: Corvane Pharma Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Corvane Pharma Ltd. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Assets
+
+[5] source: doc_031.html | company: Corvane Pharma Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Corvane Pharma Ltd. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Total current assets | 31 December 2025: 1,522.4 | 31 December 2024: 1,347.6"
+q048,fact,Who was Northgate Robotics' Chief Financial Officer at the end of FY2025?,,doc_014.html,5,True,False,Thomas Kaur,True,"[1] source: doc_014.html | company: Northgate Robotics Inc. | fiscal_year: 2025 | doc_type: earnings_call
+Northgate Robotics Inc. | Presentation
+Thomas Kaur (Chief Financial Officer)
+
+[2] source: doc_014.html | company: Northgate Robotics Inc. | fiscal_year: 2025 | doc_type: earnings_call
+Northgate Robotics Inc. | Presentation
+Thomas Kaur (Chief Financial Officer)
+
+[3] source: doc_014.html | company: Northgate Robotics Inc. | fiscal_year: 2025 | doc_type: earnings_call
+Northgate Robotics Inc. | Presentation
+Thomas Kaur (Chief Financial Officer)
+
+[4] source: doc_014.html | company: Northgate Robotics Inc. | fiscal_year: 2025 | doc_type: earnings_call
+Northgate Robotics Inc. | Call participants
+Thomas Kaur - Chief Financial Officer
+
+[5] source: doc_014.html | company: Northgate Robotics Inc. | fiscal_year: 2025 | doc_type: earnings_call
+Northgate Robotics Inc. | Presentation
+Liam Ferreira (Chief Executive Officer)"
+q049,unanswerable,"What was Brightwater Energy's operating income in FY2022, in USD millions?",,doc_003.html;doc_027.html;doc_032.html,5,,False,NOT_FOUND,True,"[1] source: doc_032.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: annual_report
+Brightwater Energy Corp. | Operating income and net income
+Operating income and net income
+
+[2] source: doc_003.html | company: Brightwater Energy Corp. | fiscal_year: 2024 | doc_type: annual_report
+Brightwater Energy Corp. | Operating income and net income
+Operating income and net income
+
+[3] source: doc_032.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: annual_report
+Brightwater Energy Corp. | Operating income and net income
+Operating income was USD 566.7 million, and the operating margin was 23.3% (22.8% in 2024). Net income was USD 415.4 million and diluted earnings per share were USD 3.35.
+
+[4] source: doc_003.html | company: Brightwater Energy Corp. | fiscal_year: 2024 | doc_type: annual_report
+Brightwater Energy Corp. | Operating income and net income
+Operating income was USD 514.1 million, and the operating margin was 22.8% (23.4% in 2023). Net income was USD 369.1 million and diluted earnings per share were USD 2.95.
+
+[5] source: doc_027.html | company: Brightwater Software Inc. | fiscal_year: 2024 | doc_type: annual_report
+Brightwater Software Inc. | Operating income and net income
+Operating income and net income"
+q050,table,"How much revenue did Brightwater Software generate in Europe, Middle East and Africa in FY2023, in USD millions?",,doc_003.html;doc_020.html;doc_027.html;doc_032.html;doc_039.html,5,True,False,493.5,True,"[1] source: doc_027.html | company: Brightwater Software Inc. | fiscal_year: 2024 | doc_type: annual_report
+Brightwater Software Inc. | Note 3: Revenue by region
+Revenue by region (USD millions)
+Europe, Middle East and Africa | 2024: 565.1 | 2023: 493.5
+
+[2] source: doc_020.html | company: Brightwater Software Inc. | fiscal_year: 2025 | doc_type: annual_report
+Brightwater Software Inc. | Note 3: Revenue by region
+Revenue by region (USD millions)
+Europe, Middle East and Africa | 2025: 739.0 | 2024: 565.1
+
+[3] source: doc_032.html | company: Brightwater Energy Corp. | fiscal_year: 2025 | doc_type: annual_report
+Brightwater Energy Corp. | Note 3: Revenue by region
+Revenue by region (USD millions)
+Europe, Middle East and Africa | 2025: 931.5 | 2024: 898.6
+
+[4] source: doc_003.html | company: Brightwater Energy Corp. | fiscal_year: 2024 | doc_type: annual_report
+Brightwater Energy Corp. | Note 3: Revenue by region
+Revenue by region (USD millions)
+Europe, Middle East and Africa | 2024: 898.6 | 2023: 877.3
+
+[5] source: doc_039.html | company: Northgate Payments Corp. | fiscal_year: 2024 | doc_type: annual_report
+Northgate Payments Corp. | Note 3: Revenue by region
+Revenue by region (USD millions)
+Europe, Middle East and Africa | 2024: 292.0 | 2023: 270.2"
+q051,table,"What were Northgate Robotics' net accounts receivable at 31 December 2025, in USD millions?",,doc_028.html;doc_038.html,5,True,False,492.1,True,"[1] source: doc_038.html | company: Northgate Robotics Inc. | fiscal_year: 2025 | doc_type: annual_report
+Northgate Robotics Inc. | Note 4: Accounts receivable
+Accounts receivable at 31 December (USD millions)
+Accounts receivable, net | 2025: 492.1 | 2024: 477.3
+
+[2] source: doc_028.html | company: Northgate Robotics Inc. | fiscal_year: 2024 | doc_type: annual_report
+Northgate Robotics Inc. | Note 4: Accounts receivable
+Accounts receivable at 31 December (USD millions)
+Accounts receivable, net | 2024: 477.3 | 2023: 454.2
+
+[3] source: doc_038.html | company: Northgate Robotics Inc. | fiscal_year: 2025 | doc_type: annual_report
+Northgate Robotics Inc. | Note 4: Accounts receivable
+Note 4: Accounts receivable
+
+[4] source: doc_028.html | company: Northgate Robotics Inc. | fiscal_year: 2024 | doc_type: annual_report
+Northgate Robotics Inc. | Note 4: Accounts receivable
+Note 4: Accounts receivable
+
+[5] source: doc_038.html | company: Northgate Robotics Inc. | fiscal_year: 2025 | doc_type: annual_report
+Northgate Robotics Inc. | Note 4: Accounts receivable
+Accounts receivable at 31 December (USD millions)
+Trade receivables, gross | 2025: 507.3 | 2024: 487.0"
+q052,table,"What were Kestrel Semiconductor's total assets at 31 December 2024, in USD millions?",,doc_005.html;doc_026.html,5,True,False,3175.5,True,"[1] source: doc_026.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Kestrel Semiconductor Ltd. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Total assets | 31 December 2025: 3,215.4 | 31 December 2024: 3,175.5
+
+[2] source: doc_026.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Kestrel Semiconductor Ltd. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Assets
+
+[3] source: doc_005.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Kestrel Semiconductor Ltd. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Total assets | 31 December 2024: 3,175.5 | 31 December 2023: 2,659.3
+
+[4] source: doc_005.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Kestrel Semiconductor Ltd. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Assets
+
+[5] source: doc_026.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Kestrel Semiconductor Ltd. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Total current assets | 31 December 2025: 1,222.7 | 31 December 2024: 1,296.0"
+q053,comparison,Which company had more employees at 31 December 2024: Brightwater Energy or Corvane Pharma?,,doc_024.html;doc_031.html,5,False,False,NOT_FOUND,False,"[1] source: doc_031.html | company: Corvane Pharma Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Corvane Pharma Ltd. | Note 6: Employees
+Note 6: Employees
+
+[2] source: doc_024.html | company: Corvane Pharma Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Corvane Pharma Ltd. | Note 6: Employees
+Note 6: Employees
+
+[3] source: doc_031.html | company: Corvane Pharma Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Corvane Pharma Ltd. | Note 6: Employees
+Employees at 31 December by function (number of people)
+Total employees | 2025: 6,379 | 2024: 4,958
+
+[4] source: doc_024.html | company: Corvane Pharma Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Corvane Pharma Ltd. | Note 6: Employees
+Employees at 31 December by function (number of people)
+Total employees | 2024: 4,958 | 2023: 4,351
+
+[5] source: doc_031.html | company: Corvane Pharma Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Corvane Pharma Ltd. | Note 6: Employees
+© 2026 Corvane Pharma Ltd. All rights reserved."
+q054,table,"What was the value of Lumen Harbor Foods' inventories at 31 December 2025, in USD millions?",,doc_015.html;doc_023.html;doc_036.html,5,True,False,297.4,True,"[1] source: doc_036.html | company: Lumen Harbor Foods plc | fiscal_year: 2024 | doc_type: annual_report
+Lumen Harbor Foods plc | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Inventories | 31 December 2024: 287.6 | 31 December 2023: 277.8
+
+[2] source: doc_023.html | company: Lumen Harbor Foods plc | fiscal_year: 2025 | doc_type: annual_report
+Lumen Harbor Foods plc | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Inventories | 31 December 2025: 297.4 | 31 December 2024: 287.6
+
+[3] source: doc_036.html | company: Lumen Harbor Foods plc | fiscal_year: 2024 | doc_type: annual_report
+Lumen Harbor Foods plc | Lumen Harbor Foods plc
+Lumen Harbor Foods plc
+
+[4] source: doc_023.html | company: Lumen Harbor Foods plc | fiscal_year: 2025 | doc_type: annual_report
+Lumen Harbor Foods plc | Lumen Harbor Foods plc
+Lumen Harbor Foods plc
+
+[5] source: doc_015.html | company: Lumen Harbor Foods plc | fiscal_year: 2025 | doc_type: research_report
+Lumen Harbor Foods plc | Lumen Harbor Foods plc (LHF)
+Lumen Harbor Foods plc (LHF)"
+q055,table,"How much cash and cash equivalents did Sablewood Retail hold at 31 December 2023, in USD millions?",,doc_004.html;doc_018.html,5,True,False,456.2,True,"[1] source: doc_018.html | company: Sablewood Retail Inc. | fiscal_year: 2024 | doc_type: annual_report
+Sablewood Retail Inc. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at end of year | 2024: 507.2 | 2023: 456.2
+
+[2] source: doc_004.html | company: Sablewood Retail Inc. | fiscal_year: 2025 | doc_type: annual_report
+Sablewood Retail Inc. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at end of year | 2025: 529.7 | 2024: 507.2
+
+[3] source: doc_018.html | company: Sablewood Retail Inc. | fiscal_year: 2024 | doc_type: annual_report
+Sablewood Retail Inc. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at beginning of year | 2024: 456.2 | 2023: 450.3
+
+[4] source: doc_004.html | company: Sablewood Retail Inc. | fiscal_year: 2025 | doc_type: annual_report
+Sablewood Retail Inc. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at beginning of year | 2025: 507.2 | 2024: 456.2
+
+[5] source: doc_018.html | company: Sablewood Retail Inc. | fiscal_year: 2024 | doc_type: annual_report
+Sablewood Retail Inc. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Cash and cash equivalents | 31 December 2024: 507.2 | 31 December 2023: 456.2"
+q056,comparison,Which company held more cash and cash equivalents at 31 December 2025: Kestrel Semiconductor or Lumen Harbor Foods?,,doc_023.html;doc_036.html,5,False,False,NOT_FOUND,False,"[1] source: doc_036.html | company: Lumen Harbor Foods plc | fiscal_year: 2024 | doc_type: annual_report
+Lumen Harbor Foods plc | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at end of year | 2024: 445.1 | 2023: 378.3
+
+[2] source: doc_023.html | company: Lumen Harbor Foods plc | fiscal_year: 2025 | doc_type: annual_report
+Lumen Harbor Foods plc | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at end of year | 2025: 437.4 | 2024: 445.1
+
+[3] source: doc_036.html | company: Lumen Harbor Foods plc | fiscal_year: 2024 | doc_type: annual_report
+Lumen Harbor Foods plc | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Cash and cash equivalents | 31 December 2024: 445.1 | 31 December 2023: 378.3
+
+[4] source: doc_023.html | company: Lumen Harbor Foods plc | fiscal_year: 2025 | doc_type: annual_report
+Lumen Harbor Foods plc | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Cash and cash equivalents | 31 December 2025: 437.4 | 31 December 2024: 445.1
+
+[5] source: doc_036.html | company: Lumen Harbor Foods plc | fiscal_year: 2024 | doc_type: annual_report
+Lumen Harbor Foods plc | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Cash and cash equivalents at beginning of year | 2024: 378.3 | 2023: 298.6"
+q057,table,"What was Northgate Payments' net cash from operating activities in FY2024, in USD millions?",,doc_011.html;doc_039.html,5,True,False,153.8,True,"[1] source: doc_039.html | company: Northgate Payments Corp. | fiscal_year: 2024 | doc_type: annual_report
+Northgate Payments Corp. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Net cash from operating activities | 2024: 153.8 | 2023: 200.4
+
+[2] source: doc_011.html | company: Northgate Payments Corp. | fiscal_year: 2025 | doc_type: annual_report
+Northgate Payments Corp. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Net cash from operating activities | 2025: 223.7 | 2024: 153.8
+
+[3] source: doc_039.html | company: Northgate Payments Corp. | fiscal_year: 2024 | doc_type: annual_report
+Northgate Payments Corp. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Operating activities
+
+[4] source: doc_011.html | company: Northgate Payments Corp. | fiscal_year: 2025 | doc_type: annual_report
+Northgate Payments Corp. | Consolidated cash flow statement
+Consolidated cash flow statement for the year ended 31 December (USD millions)
+Operating activities
+
+[5] source: doc_039.html | company: Northgate Payments Corp. | fiscal_year: 2024 | doc_type: annual_report
+Northgate Payments Corp. | Liquidity and capital resources
+Net cash from operating activities was USD 153.8 million. We invested USD 31.4 million in property, plant and equipment and paid dividends of USD 29.6 million. At year end, cash and cash equivalents were USD 114.5 million and total borrowings were USD 383.7 million."
+q058,comparison,Which company had more total assets at 31 December 2025: Halcyon Freight or Corvane Pharma?,,doc_016.html;doc_024.html;doc_031.html,5,True,False,Corvane Pharma,True,"[1] source: doc_031.html | company: Corvane Pharma Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Corvane Pharma Ltd. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Total assets | 31 December 2025: 3,079.9 | 31 December 2024: 2,711.4
+
+[2] source: doc_031.html | company: Corvane Pharma Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Corvane Pharma Ltd. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Assets
+
+[3] source: doc_024.html | company: Corvane Pharma Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Corvane Pharma Ltd. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Total assets | 31 December 2024: 2,711.4 | 31 December 2023: 2,237.3
+
+[4] source: doc_024.html | company: Corvane Pharma Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Corvane Pharma Ltd. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Assets
+
+[5] source: doc_016.html | company: Halcyon Freight Inc. | fiscal_year: 2025 | doc_type: annual_report
+Halcyon Freight Inc. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Total assets | 31 December 2025: 1,948.6 | 31 December 2024: 1,932.0"
+q059,fact,Who was Corvane Pharma's Chief Financial Officer at the end of FY2024?,,doc_009.html,5,False,False,NOT_FOUND,False,"[1] source: doc_009.html | company: Corvane Pharma Ltd. | fiscal_year: 2025 | doc_type: earnings_call
+Corvane Pharma Ltd. | Presentation
+Thomas Moreau (Chief Financial Officer)
+
+[2] source: doc_009.html | company: Corvane Pharma Ltd. | fiscal_year: 2025 | doc_type: earnings_call
+Corvane Pharma Ltd. | Presentation
+Thomas Moreau (Chief Financial Officer)
+
+[3] source: doc_009.html | company: Corvane Pharma Ltd. | fiscal_year: 2025 | doc_type: earnings_call
+Corvane Pharma Ltd. | Presentation
+Thomas Moreau (Chief Financial Officer)
+
+[4] source: doc_009.html | company: Corvane Pharma Ltd. | fiscal_year: 2025 | doc_type: earnings_call
+Corvane Pharma Ltd. | Call participants
+Thomas Moreau - Chief Financial Officer
+
+[5] source: doc_009.html | company: Corvane Pharma Ltd. | fiscal_year: 2025 | doc_type: earnings_call
+Corvane Pharma Ltd. | Presentation
+Gabriel Petrov (Chief Executive Officer)"
+q060,table,"What was Kestrel Semiconductor's total equity at 31 December 2024, in USD millions?",,doc_005.html;doc_026.html,5,True,False,"2,083.1",True,"[1] source: doc_026.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Kestrel Semiconductor Ltd. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Total equity | 31 December 2025: 1,853.3 | 31 December 2024: 2,083.1
+
+[2] source: doc_026.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Kestrel Semiconductor Ltd. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Equity
+
+[3] source: doc_005.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Kestrel Semiconductor Ltd. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Total equity | 31 December 2024: 2,083.1 | 31 December 2023: 1,691.2
+
+[4] source: doc_005.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2024 | doc_type: annual_report
+Kestrel Semiconductor Ltd. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Equity
+
+[5] source: doc_026.html | company: Kestrel Semiconductor Ltd. | fiscal_year: 2025 | doc_type: annual_report
+Kestrel Semiconductor Ltd. | Consolidated balance sheet
+Consolidated balance sheet at 31 December (USD millions)
+Total liabilities and equity | 31 December 2025: 3,215.4 | 31 December 2024: 3,175.5"

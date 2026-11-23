@@ -1,0 +1,78 @@
+40 documents, 60 questions
+
+Task 1.1 table_to_text: 100.0% of the table cells kept with their labels
+Task 1.2 chunk_document: 100.0% of the documents pass
+4308 chunks to index
+Index built in 0.4s | {'llm_calls': 0, 'llm_input_tokens': 0, 'llm_output_tokens': 0, 'cost_usd': 0.0}
+Generator failed on q007: OpenAIConnectionError('Connection error.')
+Generator failed on q002: OpenAIConnectionError('Connection error.')
+Generator failed on q004: OpenAIConnectionError('Connection error.')
+Generator failed on q008: OpenAIConnectionError('Connection error.')
+Generator failed on q010: OpenAIConnectionError('Connection error.')
+Generator failed on q012: OpenAIConnectionError('Connection error.')
+Generator failed on q003: OpenAIConnectionError('Connection error.')
+Generator failed on q009: OpenAIConnectionError('Connection error.')
+Generator failed on q013: OpenAIConnectionError('Connection error.')
+Generator failed on q017: OpenAIConnectionError('Connection error.')
+Generator failed on q021: OpenAIConnectionError('Connection error.')
+Generator failed on q020: OpenAIConnectionError('Connection error.')Generator failed on q015: OpenAIConnectionError('Connection error.')
+
+Generator failed on q014: OpenAIConnectionError('Connection error.')
+Generator failed on q018: OpenAIConnectionError('Connection error.')
+Generator failed on q016: OpenAIConnectionError('Connection error.')
+Generator failed on q022: OpenAIConnectionError('Connection error.')
+Generator failed on q024: OpenAIConnectionError('Connection error.')
+Generator failed on q023: OpenAIConnectionError('Connection error.')
+Generator failed on q026: OpenAIConnectionError('Connection error.')
+Generator failed on q027: OpenAIConnectionError('Connection error.')
+Generator failed on q030: OpenAIConnectionError('Connection error.')
+Generator failed on q029: OpenAIConnectionError('Connection error.')
+Generator failed on q031: OpenAIConnectionError('Connection error.')
+Generator failed on q036: OpenAIConnectionError('Connection error.')
+Generator failed on q037: OpenAIConnectionError('Connection error.')
+Generator failed on q038: OpenAIConnectionError('Connection error.')
+Generator failed on q035: OpenAIConnectionError('Connection error.')
+Generator failed on q042: OpenAIConnectionError('Connection error.')
+Generator failed on q040: OpenAIConnectionError('Connection error.')
+Generator failed on q043: OpenAIConnectionError('Connection error.')
+Generator failed on q045: OpenAIConnectionError('Connection error.')
+Generator failed on q050: OpenAIConnectionError('Connection error.')
+Generator failed on q046: OpenAIConnectionError('Connection error.')
+Generator failed on q048: OpenAIConnectionError('Connection error.')
+Generator failed on q047: OpenAIConnectionError('Connection error.')
+Generator failed on q051: OpenAIConnectionError('Connection error.')
+Generator failed on q052: OpenAIConnectionError('Connection error.')
+Generator failed on q053: OpenAIConnectionError('Connection error.')
+Generator failed on q054: OpenAIConnectionError('Connection error.')
+Generator failed on q055: OpenAIConnectionError('Connection error.')
+Generator failed on q056: OpenAIConnectionError('Connection error.')
+Generator failed on q059: OpenAIConnectionError('Connection error.')
+Generator failed on q058: OpenAIConnectionError('Connection error.')
+Generator failed on q057: OpenAIConnectionError('Connection error.')
+Generator failed on q060: OpenAIConnectionError('Connection error.')
+Wrote results.csv
+Task 2.1 valid, non-empty retrieval on answerable questions: 100.0%
+Task 2.2 parse_query fields right: 100.0%
+Task 2.3 retrieval recall@5 on answerable questions: 100.0%
+Task 3   answerable questions with chunks: 100.0% | unanswerable questions with []: 100.0%
+Task 4   answer accuracy: 23.3%
+
+By category       accuracy   recall
+  comparison         0.0%   100.0%
+  fact               0.0%   100.0%
+  table              0.0%   100.0%
+  unanswerable     100.0%        -
+
+Estimated points (the grade uses the private set):
+  Task 1.1   8.00 / 8
+  Task 1.2   7.00 / 7
+  Task 2.1   5.00 / 5
+  Task 2.2  10.00 / 10
+  Task 2.3  15.00 / 15
+  Task 3    10.00 / 10
+  Task 4     4.67 / 20
+  Total     59.67 / 75
+
+Your usage: {'llm_calls': 0, 'llm_input_tokens': 0, 'llm_output_tokens': 0, 'cost_usd': 0.0}
+Generator usage: {'llm_calls': 0, 'llm_input_tokens': 0, 'llm_output_tokens': 0, 'cost_usd': 0.0}
+Time: 20.5s (index 0.4s, retrieval 0.9s)

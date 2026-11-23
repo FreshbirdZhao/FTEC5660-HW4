@@ -32,6 +32,107 @@ load_dotenv()
 # =============================================================================
 # Your code: add imports, constants and helper functions here.
 # =============================================================================
+from bs4 import BeautifulSoup
+from rank_bm25 import BM25Okapi
+
+
+COMPANIES: set[str] = set()
+STOP_WORDS = set("a an the of at in on for to and or was were is are be had has have did does do what which who how much more higher its it their from by with as end year fiscal december usd millions million percent report annual fy company companies held hold earn generate give set financial statements shares management fourth quarter q4 results review forecast report announce large value net total".split())
+STOP_WORDS.update("s q earnings conference call guide investment city month spend single".split())
+ALIASES = {"borrowing": "borrowings", "headcount": "employees", "headquartered": "headquarters",
+           "audited": "auditor", "audit": "auditor", "firm": "", "growth": "growth",
+           "purchases": "purchase", "expenses": "expense", "inventories": "inventory"}
+
+
+def tokens(text: str) -> list[str]:
+    return [ALIASES.get(word, word) for word in re.findall(r"[a-z]+", text.lower())
+            if word not in STOP_WORDS and ALIASES.get(word, word)]
+
+
+def metadata_from_html(file_name: str, soup: BeautifulSoup) -> dict:
+    company = re.sub(r"\s*\([^)]*\)\s*$", "", soup.h1.get_text(" ", strip=True))
+    COMPANIES.add(company)
+    subtitle = soup.find(class_="subtitle")
+    title = subtitle.get_text(" ", strip=True) if subtitle else soup.get_text(" ", strip=True)[:1000]
+    doc_type = "earnings_call" if "conference call" in title.lower() else (
+        "research_report" if "results review" in title.lower() else "annual_report")
+    year = re.search(r"(?:FY\s*|Annual Report\s*|Full Year\s*)(20\d{2})", title, re.I)
+    if not year:
+        year = re.search(r"20\d{2}", title)
+        fiscal_year = int(year.group())
+    else:
+        fiscal_year = int(year.group(1))
+    return dict(source=file_name, company=company, fiscal_year=fiscal_year, doc_type=doc_type)
+
+
+def split_text(text: str, limit: int) -> list[str]:
+    pieces = []
+    while len(text) > limit:
+        boundary = text.rfind(" ", 0, limit + 1)
+        boundary = boundary if boundary > limit // 2 else limit
+        pieces.append(text[:boundary])
+        text = text[boundary:].lstrip()
+    if text:
+        pieces.append(text)
+    return pieces
+
+
+def retrieve_config(index: Any, question: str, filtering: bool = True,
+                    balanced: bool = True, abstention: bool = True,
+                    tokenizer=tokens, preprocess: bool = True,
+                    coverage_weight: float = 12, table_weight: float = 3,
+                    year_weight: float = 1) -> list[Document]:
+    chunks = index["chunks"]
+    if not chunks:
+        return []
+    parsed = parse_query(question) if preprocess or filtering or year_weight else {
+        "companies": [], "fiscal_year": None, "doc_type": "annual_report"}
+    query = question
+    if preprocess:
+        for name in parsed["companies"]:
+            query = re.sub(re.escape(name), " ", query, flags=re.I)
+        query = re.sub(r"\bdoes\s+.+?\s+(?:set for|forecast for|give)\b", " ", query, flags=re.I)
+        query = re.sub(r"\b\w+['’]s\b", " ", query)
+    query_tokens = tokenizer(query)
+    scores = index["bm25"].get_scores(query_tokens)
+    groups = parsed["companies"] if filtering and balanced else [None]
+    if not groups:
+        return [] if abstention else sorted(chunks, key=lambda chunk: len(chunk.page_content))[:5]
+    selected = []
+    for company in groups:
+        candidates = []
+        for position, chunk in enumerate(chunks):
+            meta = chunk.metadata
+            if filtering:
+                names = [company] if company else parsed["companies"]
+                if not any(company_key(name) == company_key(meta["company"]) for name in names):
+                    continue
+                if meta["doc_type"] != parsed["doc_type"]:
+                    continue
+                year = parsed["fiscal_year"]
+                if year and meta["doc_type"] == "annual_report":
+                    if meta["fiscal_year"] != year and not (
+                        meta["is_table"] and meta["fiscal_year"] == year + 1 and str(year) in chunk.page_content):
+                        continue
+                elif year and str(year) not in chunk.page_content and year != meta["fiscal_year"]:
+                    continue
+            coverage = len(set(query_tokens) & index["tokens"][position]) / max(1, len(set(query_tokens)))
+            score = float(scores[position]) + coverage_weight * coverage + (
+                table_weight if meta.get("is_table") else 0)
+            if meta["fiscal_year"] == parsed["fiscal_year"]:
+                score += year_weight
+            candidates.append((score, coverage, position))
+        candidates.sort(reverse=True)
+        if not candidates:
+            if abstention:
+                return []
+            continue
+        if abstention and max(item[1] for item in candidates[:5]) < 0.8:
+            return []
+        count = max(1, MAX_RETRIEVED // len(groups))
+        selected.extend((score, position) for score, _, position in candidates[:count])
+    selected.sort(reverse=True)
+    return [chunks[position] for _, position in selected[:MAX_RETRIEVED]]
 
 
 def table_to_text(table_html: str) -> str:
@@ -43,7 +144,27 @@ def table_to_text(table_html: str) -> str:
     LLM here.
     """
     ### YOUR CODE HERE
-    return ""
+    soup = BeautifulSoup(table_html, "html.parser")
+    caption = soup.find("caption")
+    lines = [caption.get_text(" ", strip=True)] if caption else []
+    rows = soup.find_all("tr")
+    if not rows:
+        return "\n".join(lines)
+    headers = [cell.get_text(" ", strip=True) for cell in rows[0].find_all(["th", "td"])]
+    for row in rows[1:]:
+        cells = [cell.get_text(" ", strip=True) for cell in row.find_all(["th", "td"])]
+        if not cells:
+            continue
+        values = [f"{headers[position] if position < len(headers) else ''}: {value}"
+                  for position, value in enumerate(cells[1:], 1)]
+        line = cells[0]
+        for value in values:
+            if len(line + " | " + value) > 400:
+                lines.append(line)
+                line = cells[0]
+            line += " | " + value
+        lines.append(line)
+    return "\n".join(lines)
 
 
 def chunk_document(file_name: str, html: str) -> list[Document]:
@@ -53,7 +174,33 @@ def chunk_document(file_name: str, html: str) -> list[Document]:
     "doc_type" (one of DOC_TYPES). Do not call the LLM here.
     """
     ### YOUR CODE HERE
-    return []
+    soup = BeautifulSoup(html, "html.parser")
+    metadata = metadata_from_html(file_name, soup)
+    for node in soup.find_all(["nav", "style", "script", "head"]):
+        node.decompose()
+    chunks = []
+    section = ""
+    for node in soup.find_all(["h1", "h2", "h3", "p", "li", "table"]):
+        if node.find_parent("table") or (node.name == "li" and node.find_parent("li")):
+            continue
+        if node.name in ("h1", "h2", "h3"):
+            section = node.get_text(" ", strip=True)
+        is_table = node.name == "table"
+        text = table_to_text(str(node)) if is_table else node.get_text(" ", strip=True)
+        header = f"{metadata['company']} | {section}\n"
+        if is_table:
+            caption = node.find("caption")
+            caption_text = caption.get_text(" ", strip=True) if caption else ""
+            header += caption_text + "\n"
+            lines = text.splitlines()[1:] if caption else text.splitlines()
+        else:
+            lines = [text]
+        header = header[:500]
+        for line in lines:
+            for piece in split_text(line, MAX_CHUNK_CHARS - len(header)):
+                chunks.append(Document(page_content=header + piece,
+                    metadata={**metadata, "section": section, "is_table": is_table}))
+    return chunks
 
 
 def parse_query(question: str) -> dict:
@@ -62,7 +209,32 @@ def parse_query(question: str) -> dict:
     The rules for each field are under Task 2.2 in the handout. You may use make_llm() here.
     """
     ### YOUR CODE HERE
-    return {}
+    year = re.search(r"\b(?:FY)?(20\d{2})\b", question, re.I)
+    doc_type = "earnings_call" if re.search(r"earnings call|conference call", question, re.I) else (
+        "research_report" if re.search(r"\b(?:rating|target price|forecast|results review|broker)\b", question, re.I)
+        else "annual_report")
+    companies = []
+    patterns = [r"\baudited\s+(.+?)(?:['’]s|['’](?=\s))",
+                r"\b(?:set for|forecast for|give)\s+(.+?)(?=,|['’]|\s+in\b|\?)",
+                r"(?:was|were|is|did|does)\s+(?:the value of\s+)?(.+?)(?:['’]s|['’](?=\s))",
+                r"(?:did|does)\s+(.+?)\s+(?:hold|report|generate|earn|spend|announce)\b",
+                r"\bcity is\s+(.+?)\s+headquartered",
+                r"\b(?:for|give)\s+(.+?)(?=,|['’]|\s+in\b|\s+financial statements|\?)"]
+    if ":" in question and re.search(r"which company", question, re.I):
+        companies = re.split(r"\s+or\s+", question.split(":", 1)[1].rstrip("?"), flags=re.I)
+    else:
+        for pattern in patterns:
+            match = re.search(pattern, question, re.I)
+            if match:
+                companies = [match.group(1).strip()]
+                break
+    if not companies:
+        for company in sorted(COMPANIES, key=len, reverse=True):
+            name = re.sub(r"\s+(?:Inc\.?|Ltd\.?|Corp\.?|plc|Corporation|Limited)$", "", company, flags=re.I)
+            if re.search(r"\b" + re.escape(name) + r"\b", question, re.I):
+                companies.append(name)
+    return {"companies": [name.strip() for name in companies],
+            "fiscal_year": int(year.group(1)) if year else None, "doc_type": doc_type}
 
 
 def build_index(chunks: list[Document]) -> Any:
@@ -71,7 +243,9 @@ def build_index(chunks: list[Document]) -> Any:
     Return anything retrieve() needs: a BM25 or TF-IDF index, the chunks grouped by metadata, ...
     """
     ### YOUR CODE HERE
-    return None
+    documents = [tokens(chunk.page_content) for chunk in chunks]
+    return {"chunks": chunks, "bm25": BM25Okapi(documents) if documents else None,
+            "tokens": [set(words) for words in documents]}
 
 
 def retrieve(index: Any, question: str) -> list[Document]:
@@ -80,7 +254,9 @@ def retrieve(index: Any, question: str) -> list[Document]:
     Return [] when the corpus cannot answer the question: the generator then answers NOT_FOUND.
     """
     ### YOUR CODE HERE
-    return []
+    return retrieve_config(index, question)
+
+
 
 
 # =============================================================================

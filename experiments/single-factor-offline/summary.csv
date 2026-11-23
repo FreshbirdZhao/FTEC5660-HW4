@@ -1,0 +1,16 @@
+variant,change,chunks,recall_at_5,kept,rejected,accuracy,retrieval_seconds,total_seconds,generator_input_tokens,generator_output_tokens
+B0,Naive baseline,291,0.34782608695652173,1.0,0.0,,0.241,0.247,0,0
+V1,Preserve table labels,340,0.30434782608695654,1.0,0.0,,0.386,0.39,0,0
+V2,Remove navigation and non-content HTML,336,0.32608695652173914,1.0,0.0,,0.416,0.42,0,0
+V3,Replace fixed-size chunks with document blocks and table rows,4308,0.2391304347826087,1.0,0.0,,1.042,1.043,0,0
+V4,Prepend company and section context,4308,0.4782608695652174,1.0,0.0,,1.128,1.129,0,0
+V5,Use alphabetic token boundaries,4308,0.6739130434782609,1.0,0.0,,1.051,1.052,0,0
+V6,Remove stop words,4308,0.6739130434782609,1.0,0.0,,0.84,0.841,0,0
+V7,Normalize financial synonyms,4308,0.6956521739130435,1.0,0.0,,1.009,1.01,0,0
+V8,Remove parsed entity clauses from ranking query,4308,0.2826086956521739,1.0,0.0,,1.116,1.118,0,0
+V9,Add query-token coverage score,4308,0.30434782608695654,1.0,0.0,,0.913,0.914,0,0
+V10,Add table preference,4308,0.30434782608695654,1.0,0.0,,0.907,0.908,0,0
+V11,Add exact-report-year preference,4308,0.34782608695652173,1.0,0.0,,0.792,0.794,0,0
+V12,Enable company/type/year candidate filtering,4308,1.0,1.0,0.7142857142857143,,1.717,1.719,0,0
+V13,Allocate retrieval slots per company,4308,1.0,1.0,0.7142857142857143,,1.596,1.597,0,0
+V14,Enable evidence-coverage abstention,4308,1.0,1.0,1.0,,2.791,2.793,0,0

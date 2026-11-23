@@ -1,0 +1,8 @@
+variant,change,chunks,recall_at_5,kept,rejected,accuracy,retrieval_seconds,total_seconds,generator_input_tokens,generator_output_tokens
+B0,Naive baseline,291,0.34782608695652173,1.0,0.0,0.5,0.21,7.423,100929,183
+V1,Preserve table labels,340,0.30434782608695654,1.0,0.0,0.4666666666666667,0.39,6.645,102929,183
+V2,Section and table-row chunks with contextual headers,4308,0.4782608695652174,1.0,0.0,0.6333333333333333,0.679,7.717,34811,184
+V3,Normalized lexical scoring and coverage boosting,4308,0.34782608695652173,1.0,0.0,0.5,0.751,6.871,33120,186
+V4,Query metadata filtering,4308,1.0,1.0,0.7142857142857143,1.0,1.384,5.912,27729,172
+V5,Allocate retrieval slots per company,4308,1.0,1.0,0.7142857142857143,1.0,1.418,5.939,26705,172
+V6,Abstain on missing metadata or insufficient evidence,4308,1.0,1.0,1.0,1.0,1.535,6.131,24494,162
