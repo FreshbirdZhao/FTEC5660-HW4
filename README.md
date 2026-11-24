@@ -129,6 +129,8 @@ The public scores are 55/55 for Tasks 1–3 and 20/20 for Task 4: 12/12 table sc
 
 ## Task 6 — Reflection
 
+Standalone submission: [Task 6 Reflection (PDF)](Reflection.pdf).
+
 *AI-assisted reflection, written as an aspirational position rather than a claim about personal experiences.*
 
 If everyone has powerful personal AI agents in ten years, I would want to be someone whose judgment other people can trust. An agent may be able to produce an excellent plan, but choosing which problem deserves attention, deciding whose interests count, and accepting responsibility for the consequences would still matter. I would not want my identity to depend on being temporarily faster than a machine. I would want to be dependable when the right decision is uncertain or inconvenient.
